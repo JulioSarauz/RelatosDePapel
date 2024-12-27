@@ -3,7 +3,7 @@ import { FormularioIngreso } from "../components/FormularioIngreso";
 import { FormularioRecuperarContrasenia } from "../components/FormularioRecuperarContrasenia";
 import { FormularioRegistro } from "../components/FormularioRegistro";
 import { PiePagina } from "../components/PiePagina";
-import { Cabecera } from "../components/cabecera";
+import { Cabecera } from "../components/Cabecera";
 
 export const InicioSesion = () => {
   const [mostrarRecuperar, setMostrarRecuperar] = useState(false);
