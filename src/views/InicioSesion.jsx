@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FormularioIngreso } from "../components/formularioIngreso";
+import { FormularioIngreso } from "../components/FormularioIngreso";
 import { FormularioRecuperarContrasenia } from "../components/FormularioRecuperarContrasenia";
 import { FormularioRegistro } from "../components/FormularioRegistro";
 import { PiePagina } from "../components/PiePagina";
