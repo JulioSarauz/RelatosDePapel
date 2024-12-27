@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { InicioSesion } from "../views/InicioSesion";
-import { Principal } from "../views/principal";
+import { Principal } from "../views/Principal";
 import { Detalle } from "../views/Detalle";
 import { CarritoCompras } from "../views/Carrito";
 import { Pagar } from "../views/Pagar";
