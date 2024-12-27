@@ -1,0 +1,40 @@
+.pagina-vacia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  .error-titulo {
+    font-size: 6rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #00b4b4;
+  }
+  
+  .error-descripcion {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn-volver {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #00b4b4;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .btn-volver:hover {
+    background-color: white;
+    color: #00b4b4;
+    border: 1px solid #00b4b4;
+  }
+  

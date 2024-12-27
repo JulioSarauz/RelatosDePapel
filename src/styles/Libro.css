@@ -1,0 +1,81 @@
+.libro-header {
+    border: 0.5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 50px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 2px #00b4b4;
+}
+
+.indice {
+    color: rgb(255, 255, 255);
+    background-color:rgb(196, 150, 0);
+    margin: 0px 10px 0px 0px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    position: absolute;
+}
+
+.libro-titulo {
+    color: #00b4b4;
+    margin: 10px 0px 0px 20%;
+    font-size: 1rem;
+}
+
+.libro-img {
+    margin-top: 20px;
+    border: 1px solid rgb(150, 1, 1);
+    height: 250px;
+    width: 50%;
+    border-radius: 25px;
+}
+
+.libro-sinopsis {
+    text-align: justify;
+    margin: 10px 5% 10px 5%;
+    padding: 15px 10% 15px 10%;
+    border-radius: 5px;
+    color: black;
+}
+
+.libro-duracion {
+    text-align: left;
+    margin-left: 15%;    
+    color: black;
+}
+
+.libro-genero {
+    text-align: left;
+    margin-left: 15%;    
+    color: black;
+}
+
+.libro-puntuacion {
+    text-align: left;
+    margin-left: 15%;
+    color: black;
+}
+
+.libro-btn {
+    width: 100%;
+    background-color: rgb(0, 65, 150);
+    border: 1px solid rgb(0, 65, 150);
+    border-radius: 25px;
+    font-weight: bold;
+    color: white;
+    font-size: 10px;
+}
+
+.libro-btn:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(129, 184, 255);
+    border-radius: 25px;
+    font-weight: bold;
+    color: rgb(129, 184, 255);
+}
+
+.libro-htit {
+    display: flex;
+    flex-direction: row;
+}

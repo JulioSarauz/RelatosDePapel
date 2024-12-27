@@ -1,0 +1,64 @@
+body{
+    color: black;
+}
+
+
+
+.CarritoBody{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+.CarritoBody tr th{
+    box-shadow: 0px 1px 0px 0px;
+    text-align: center;
+    padding-bottom: 15px;
+    color: chocolate;
+}
+
+.CarritoBody tr td{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.subtitulo{
+    margin-left: 5%;
+    color: #00b4b4;
+    margin-bottom: 25px;
+}
+.VaciarCarrito{
+    margin-left: 5%;
+    margin-bottom: 25px;
+}
+.valorPago h2{
+    text-align: right;
+    padding-right: 10%;
+}
+
+
+.seccionPagar{
+    text-align: center;
+}
+
+.btnPagar{
+    margin-bottom: 25px;
+    background-color: #00b4b4;
+    font-size: 25px;
+}
+
+.btnPagar:hover{
+    margin-bottom: 25px;
+    border: 1px solid #00b4b4;
+    background-color: white;
+    color: #00b4b4;
+    font-size: 25px;
+}
+.carrito-vacio {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 150px;
+  }
+  

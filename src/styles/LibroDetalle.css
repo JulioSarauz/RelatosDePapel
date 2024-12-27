@@ -1,0 +1,46 @@
+.movie-grid {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 8px; 
+    justify-content: space-between; 
+    max-width: 80%;
+}
+
+.movie-grid > * {
+    flex: 1 1 30%; 
+    box-sizing: border-box; 
+    margin-top: 50px;
+}
+
+.columna{
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    margin-left: 2rem;
+}
+
+.fila{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.subtitulo{
+    margin: 0px;
+}
+.textoContenido{
+    margin: 0px;
+}
+
+.btn-carrito{
+    margin-bottom: 80px;
+}
+
+.imagenLibro img{
+    width: 50%;
+}
+
+.imagenLibro{
+   margin-left: 15%;
+   margin-bottom: 150px;
+}

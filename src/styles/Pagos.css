@@ -1,0 +1,117 @@
+.columna{
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    margin-left: 2rem;
+}
+
+.fila{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fila h2{
+    font-size: 30px;
+}
+.cabezaFactura{
+    display: flex;
+    background-color: #00b4b4;
+    color: white;   
+    margin-left: 5%;
+}
+
+.ballLeft{
+    width: 30px;
+    height: 60px;
+    background-color: white;
+    border-radius: 0px 50px 50px 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 150px;
+}
+
+.ballRigth{
+    width: 30px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50px 0px 0px 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 150px;
+}
+
+
+.metodosPagoFormulario {
+    margin-top: 20px;
+    margin-left: 5%
+  }
+  
+  .opcionesPago{
+    margin-right: 50px;
+  }
+  .opcionesPago label {
+    display: block;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .detalles-tarjeta label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .detalles-tarjeta input {
+    padding: 5px;
+    font-size: 1em;
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 5px;
+  }
+  
+  .btn-pagar {
+    margin-top: -220px;
+    margin-left: 220px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    border: 1px solid #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn-pagar:hover {
+    background-color: #ffffff;
+    border: 1px solid #4caf50;
+    color: #4caf50;
+  }
+  .btn-Cancelar{
+    margin-top: -120px;
+    margin-left: 220px;
+    padding: 10px 20px;
+    background-color: #ff5757;
+    border: 1px solid #ff5757;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  .btn-Cancelar:hover {
+    background-color: #ffffff;
+    border: 1px solid #ff5757;
+    color: #ff5757;
+  }
+  
+
+  
+
+  .metodosPago{
+    margin-left: 5%;
+  }
+
+  .CuerpoFacrtura{
+    text-align: center;
+  }
