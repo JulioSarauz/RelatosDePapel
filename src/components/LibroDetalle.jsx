@@ -2,7 +2,6 @@ import React from "react";
 import './../styles/LibroDetalle.css';
 import { useCart } from "../hooks/useCart";
 import { useSweetAlert } from "../hooks/useSweetAlert";
-import { useNavigate } from "react-router-dom";
 
 export const LibroDetalle = ({ idLibro }) => {
     const libros = [
