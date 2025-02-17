@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/', // Asegúrate de que sea la raíz del sitio
+  base: '/', // Usa '/' para la raíz de la aplicación
 })
