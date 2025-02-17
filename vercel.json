@@ -1,0 +1,30 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "index.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/old-page",
+        "dest": "/new-page"
+      },
+      {
+        "src": "/login",
+        "dest": "/login"
+      }
+    ],
+    "redirects": [
+      {
+        "source": "/old-url",
+        "destination": "/new-url",
+        "permanent": true
+      }
+    ],
+    "errors": {
+      "404": "/custom-404.html"
+    }
+  }
+  
